@@ -43,3 +43,16 @@ main hr {
     border: 1px solid #bebebe;
     margin: 40px 0;
 }
+
+@media screen and (max-width: 576px) {
+    .player-list {
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .player {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
