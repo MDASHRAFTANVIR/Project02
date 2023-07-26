@@ -1,0 +1,71 @@
+footer {
+    width: 100%;
+    background-color:#562EFF;
+
+}
+
+.footer-main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.content img {
+    width: 50px;
+    height: 60px;
+}
+
+.footer-main h3 {
+    color: rgb(255, 252, 247);
+    margin: 15px 0;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.footer-main input {
+    padding: 15px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer-main input[type="submit"] {
+    background-color: rgb(231, 62, 0);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+.icon {
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.icon .fa-facebook {
+    color: rgb(17, 100, 173);
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.icon .fa-linkedin {
+    color:rgb(11, 11, 92);
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.icon .fa-instagram {
+    color: rgb(138, 11, 138);
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 8px;
+}
