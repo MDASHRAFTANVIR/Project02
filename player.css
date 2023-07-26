@@ -2,7 +2,7 @@
 
 main {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
     background-color: aliceblue;
     border-radius: 5px;
 }
@@ -11,7 +11,7 @@ main {
     padding: 36px;
 }
 
-.top-player h3 {
+.heading-title {
     color: #562EFF;
     font-family: Poppins;
     font-size: 24px;
@@ -41,7 +41,7 @@ main {
 
 main hr {
     border: 1px solid #bebebe;
-    margin: 40px 0;
+    margin: 40px 0 0 0;
 }
 
 /* Responsive: Mobile Device  */
