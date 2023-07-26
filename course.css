@@ -1,4 +1,4 @@
-footer {
+.final {
     width: 80%;
     margin: 0 auto;
     background-color: aliceblue;
@@ -41,7 +41,7 @@ footer {
 
 .star i {
     color:#FFC014;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .star p {
@@ -71,21 +71,6 @@ footer {
 .hour i {
     color: #ED6B4F;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .course-option img {
     width: 266px;
     height: 141px;
@@ -95,6 +80,7 @@ footer {
 .review {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .star p {
@@ -103,4 +89,50 @@ footer {
 
 .hour p {
     display: inline;
+}
+
+@media screen and (max-width: 576px) {
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+
+    .course-option img {
+        width: 100%;
+    }
+    .review {
+        align-items: center;
+    }
+    .star i {
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+    
+    .course-option {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+    }
+    
+    .course-option {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+
+    }
 }
