@@ -61,3 +61,15 @@ nav ul a {
     line-height: normal;
 }
 
+@media screen and (max-width: 576px) {
+    .header-portion {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .navigation {
+        justify-content: space-between;
+    }
+    
+
+}
