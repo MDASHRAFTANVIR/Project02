@@ -1,0 +1,106 @@
+footer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.courses {
+    padding: 36px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.course-option {
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0.2, 0.1);
+    border-radius: 5px;
+}
+
+.course-option h3 {
+    color: #1E1E1E;
+    font-family: Roboto;
+    font-size: 20.034px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.course-option p {
+    color: #ED6B4F;
+    font-family: Roboto;
+    font-size: 14.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 16px 0;
+}
+
+.star i {
+    color:#FFC014;
+    font-size: 14px;
+}
+
+.star p {
+    color: #A2A2A2;
+    font-family: Poppins;
+    font-size: 14.691px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+}
+
+.hour {
+    background-color:#FEE5DF;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.hour p {
+    color: #ED6B4F;
+    font-family: Open Sans;
+    font-size: 14.691px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 5px;
+}
+.hour i {
+    color: #ED6B4F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course-option img {
+    width: 266px;
+    height: 141px;
+}
+
+
+.review {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star p {
+    display: inline;
+}
+
+.hour p {
+    display: inline;
+}
