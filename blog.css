@@ -49,3 +49,29 @@
     font-weight: 400;
     line-height: normal;
 }
+
+@media screen and (max-width: 576px) {
+    .all-article {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .article-part {
+        flex-direction: column;
+    }
+    .article-part img {
+        width: 100%;
+        /* margin-bottom: 10px; */
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .all-article {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .all-article {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
